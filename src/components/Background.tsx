@@ -1,13 +1,8 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
 export default function Background() {
     return (
         <div className='bg-container'>
-            <div id="chevron-down">
-                <FontAwesomeIcon icon={faChevronDown} size="4x" />
-            </div>
             <div className="bg" id="background">
                 <div className="section-title">
                     <p>
