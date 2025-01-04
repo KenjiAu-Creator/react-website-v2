@@ -1,0 +1,17 @@
+.exp {
+    margin: 0 150px;
+    display: flex;
+    flex-direction: row;
+}
+.exp-block {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+.exp-title {
+    min-width: 300px;
+    width: 35vw;
+}
+.company {
+    display: block;
+}

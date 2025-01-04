@@ -1,0 +1,27 @@
+.contact {
+    margin: auto;
+    width: 30vw;
+    text-align: center;
+}
+
+.contact-title {
+    color: #1611F2;
+    font-size: 34px;
+}
+.icon-box {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+.icon {
+    margin: 0 10px;
+}
+.icon-link {
+    text-decoration: none;
+    color: inherit;
+}
+.icon-link:visited {
+    text-decoration: none;
+    color: inherit;
+}

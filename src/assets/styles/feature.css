@@ -1,0 +1,60 @@
+.feat {
+    margin: 0 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+#yummyLanding {
+    width: 471px;
+    height: 297px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+#yummyMobile {
+    position: absolute;
+    left: 425px;
+    top: 35px;
+    width: 130px;
+    height: 266px;
+}
+
+#shopLanding {
+    width: 615px;
+    height: 290px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+#shopMobile {
+    position: absolute;
+    left: 575px;
+    top: 35px;
+    width: 131px;
+    height: 270px;
+}
+.proj-photos {
+    position: relative;
+}
+.proj-point {
+    margin-bottom: 50px;
+}
+.button {
+    border: solid #1611F2 1px;
+    padding: 5px;
+    background-color:rgb(243, 251, 251);
+    color: #1611F2;
+    width: 50px;
+    text-align: center;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  .feat-desc {
+      width: 50vw;
+  }
+
+  @media screen and (min-width: 1000px) {
+      .feat-desc {
+          width: 40%;
+      }
+  }
