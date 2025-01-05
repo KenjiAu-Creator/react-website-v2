@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Background() {
     return (
-        <div className='bg-container'>
+        <div id='bg-container'>
             <div className="bg" id="background">
                 <div className="section-title">
                     <p>

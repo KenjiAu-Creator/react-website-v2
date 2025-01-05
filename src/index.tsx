@@ -27,13 +27,15 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <Header />
-    <Landing />
-    <Background />
-    <Skills />
-    <Experience />
-    <Feature />
-    <Other />
-    <Contact />
+    <div className="root">
+      <Header />
+      <Landing />
+      <Background />
+      <Skills />
+      <Experience />
+      <Feature />
+      <Other />
+      <Contact />
+    </div>
   </React.StrictMode>
 );

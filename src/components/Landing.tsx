@@ -3,10 +3,19 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
 export default function Landing() {
+    const scrollToTop = () => {
+        if (document) {
+            const bg = document.getElementById("bg-container");
+            if (bg) {
+                bg.scrollIntoView({ behavior: 'smooth' })
+            }
+        }
+    }
+
     return (
-        <div className="grid w-full justify-content-center">
-            <div className="landing w-8">
-                <div>
+        <div className="grid w-full justify-content-center h-screen">
+            <div className="landing w-8 h-screen flex flex-column">
+                <div className="h-screen">
                     <div id="landing-intro">
                         Hi, my name is
                     </div>
@@ -20,9 +29,9 @@ export default function Landing() {
                         I'm a full stack software developer specialized in building web applications. Currently I am looking for new opportunities!
                     </div>
                 </div>
-                <div>
-                    <div id="chevron-down">
-                        <FontAwesomeIcon icon={faChevronDown} size="4x" />
+                <div className="flex justify-content-center">
+                    <div id="chevron-down align-content-end">
+                        <FontAwesomeIcon icon={faChevronDown} size="4x" className="fa-bounce" onClick={scrollToTop} />
                     </div>
                 </div>
             </div>
