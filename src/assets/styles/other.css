@@ -1,39 +1,7 @@
-.other {
-    margin: 0 150px;
-    display: flex;
-    flex-direction: row;
-}
-
-.proj-title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-right: 10px;
-}
-
-.proj-header{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.proj-buttons {
-    width: 80%;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-.proj-desc {
-    width: 70%;
-    margin-bottom: 15px;
-}
 .tag {
     color: #007bff;
     border: 1px solid #007bff;
     padding: 2px 7px;
     border-radius: 3px;
     margin-right: 5px;
-}
-@media screen and (min-width: 1000px ) {
-    .proj-buttons {
-        width: 20%;
-    }
 }
