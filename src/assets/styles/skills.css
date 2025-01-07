@@ -1,22 +1,4 @@
-.skills-block {
-    margin: 0 150px;
-    display: flex;
-    flex-direction: row;
-}
-.skills-content {
-    display: flex;
-    flex-direction: row;
-}
-.skills-content-point {
-    width: 15vw;
-}
-.skills-list {
-    padding: 0;
-}
 .skills-point {
     list-style-type: none;
     padding: none;
-}
-.list-title {
-    font-weight: 500;
 }

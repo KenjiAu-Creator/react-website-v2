@@ -16,17 +16,17 @@ export default function Landing() {
         <div className="grid w-full justify-content-center h-screen">
             <div className="landing w-8 h-screen flex flex-column">
                 <div className="h-screen">
-                    <div id="landing-intro">
+                    <div id="landing-intro ">
                         Hi, my name is
                     </div>
-                    <div id="landing-name">
+                    <div id="landing-name" className="text-8xl mt-3">
                         Kenji Au
                     </div>
-                    <div id="landing-building">
+                    <div id="landing-building" className="text-6xl">
                         I build things on the web.
                     </div>
-                    <div id="landing-description">
-                        I'm a full stack software developer specialized in building web applications. Currently I am looking for new opportunities!
+                    <div id="landing-description" className="text-3xl mt-3">
+                        I'm a full stack software developer experienced in building web applications. Currently I am looking for new opportunities!
                     </div>
                 </div>
                 <div className="flex justify-content-center">
