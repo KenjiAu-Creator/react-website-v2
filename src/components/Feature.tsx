@@ -18,46 +18,46 @@ export default function Feature() {
                     <div className="w-full mb-8">
                         <div className="w-full flex">
                             <img
-                                id="yummyLanding" className="w-10" src={yummyLanding} alt="Landing photo for yummy desktop"
+                                id="yummyLanding" className="w-10" src={yummyLanding} alt="Landing for yummy desktop"
                             />
                             <img
                                 id="yummyMobile"
                                 className="w-4"
                                 src={yummyMobile}
-                                alt="Landing photo for yummy mobile"
+                                alt="Landing for yummy mobile"
                             />
                         </div>
                         <p className="feat-desc">
                             Yummy is a meal planning application built on .NET Core, React and Tailwind.css. Yummy allows users to create profiles and save recipes along with meal plans.
                         </p>
                         <div className="proj-buttons">
-                            <a href="https://github.com/KenjiAu-Creator/YummyProject" target="_blank" className="button">Code</a>
+                            <a href="https://github.com/KenjiAu-Creator/YummyProject" target="_blank" rel="noreferrer" className="button">Code</a>
                         </div>
                     </div>
                     <div className="w-full mb-8">
                         <div className="w-full flex">
-                            <img id="shopLanding" className="w-12" src={shopLanding} />
-                            <img id="shopMobile" className="w-4" src={shopMobile} />
+                            <img id="shopLanding" className="w-12" src={shopLanding} alt="Landing for shop landing" />
+                            <img id="shopMobile" className="w-4" src={shopMobile} alt="Landing for shop mobile" />
                         </div>
                         <p className="feat-desc">
                             An E-commerce site built around a charity theme. The application features an online store with products obtained through an external API. The application tracks products the user wishes to purchase with through a Redux state managed cart system.
                         </p>
                         <div className="proj-buttons">
-                            <a href="https://kenjiau-creator.github.io/TECHCareers-React-Redux-Milestone/" target="_blank" className="button">Demo</a>
-                            <a href="https://github.com/KenjiAu-Creator/TECHCareers-React-Redux-Milestone" target="_blank" className="button">Code</a>
+                            <a href="https://kenjiau-creator.github.io/TECHCareers-React-Redux-Milestone/" target="_blank" rel="noreferrer" className="button">Demo</a>
+                            <a href="https://github.com/KenjiAu-Creator/TECHCareers-React-Redux-Milestone" target="_blank" rel="noreferrer" className="button">Code</a>
                         </div>
                     </div>
                     <div className="w-full mb-8">
                         <div className="w-full flex">
-                            <img id="boardLanding" className="w-12" src={boardLanding} />
-                            <img id="boardMobile" className="w-4" src={boardMobile} />
+                            <img id="boardLanding" className="w-12" src={boardLanding} alt="Landing for board" />
+                            <img id="boardMobile" className="w-4" src={boardMobile} alt="Landing for board mobile" />
                         </div>
                         <p className="feat-desc">
                             A mobile application designed to help groups find a suitable board game to play based on length and player count. This project was created in collaboration with Steven Yan and was created with the intent to learn mobile development. This application was built using React Native on the frontend with a FlaskAPI backend.
                         </p>
                         <div className="proj-buttons">
-                            <a href="https://board-game-front-wheat.vercel.app/" target="_blank" className="button">Demo</a>
-                            <a href="https://github.com/KenjiAu-Creator/board-game-mobile" target="_blank" className="button">Code</a>
+                            <a href="https://board-game-front-wheat.vercel.app/" target="_blank" rel="noreferrer" className="button">Demo</a>
+                            <a href="https://github.com/KenjiAu-Creator/board-game-mobile" target="_blank" rel="noreferrer" className="button">Code</a>
                         </div>
                     </div>
                 </div>

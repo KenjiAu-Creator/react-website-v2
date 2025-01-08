@@ -18,12 +18,12 @@ export default function Contact() {
             </p>
             <div className="icon-box">
                 <div className="icon">
-                    <a className="icon-link" href="https://linkedIn.com/in/kenjiau-0123/" target="_blank">
+                    <a className="icon-link" href="https://linkedIn.com/in/kenjiau-0123/" rel="noreferrer" target="_blank">
                         <FontAwesomeIcon icon={faLinkedin} size="4x" />
                     </a>
                 </div>
                 <div className="icon" onClick={TriggerOutlook}><FontAwesomeIcon icon={faEnvelope} size="4x" /></div>
-                <div className="icon"><a className="icon-link" href="https://github.com/KenjiAu-Creator" target="_blank"><FontAwesomeIcon icon={faGithub} size="4x" /></a></div>
+                <div className="icon"><a className="icon-link" rel="noreferrer" href="https://github.com/KenjiAu-Creator" target="_blank"><FontAwesomeIcon icon={faGithub} size="4x" /></a></div>
             </div>
         </div>
     )
