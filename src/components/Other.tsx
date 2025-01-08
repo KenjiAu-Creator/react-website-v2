@@ -1,15 +1,43 @@
 import React from 'react';
 
 export default function Other() {
+    document.addEventListener('scroll', function () {
+        const element = document.getElementById('personal-title');
+        if (element) {
+            const rect = element.getBoundingClientRect();
+            // Check if the element is in view
+            if (rect.top < (window.innerHeight / 2) && rect.bottom >= 0) {
+                element.classList.remove("opacity-0")
+                element.classList.add("fadeinleft")
+                element.classList.add("animation-duration-1000")
+            }
+        }
+
+        const translateUp = (divId: string): void => {
+            const element = document.getElementById(divId);
+            if (element) {
+                const rect = element.getBoundingClientRect();
+                // Check if the element is in view
+                if (rect.top < (window.innerHeight / 3) && rect.bottom >= 0) {
+                    element.classList.remove("opacity-0")
+                    element.classList.add("fadeindown")
+                    element.classList.add("animation-duration-1000")
+                }
+            }
+        }
+
+        translateUp("personal-projects")
+    });
+
     return (
-        <div className="w-8" id="other-section">
+        <div className="w-8" id="personal-section">
             <div className="w-full flex">
-                <div className="w-4 flex justify-content-center">
+                <div className="w-4 flex justify-content-center opacity-0" id="personal-title">
                     <div className="section-title">
                         PERSONAL PROJECTS
                     </div>
                 </div>
-                <div className="w-8">
+                <div className="w-8 opacity-0" id="personal-projects">
                     <div className="w-full flex flex-wrap">
                         <div className="w-full mb-2">
                             <div className="">

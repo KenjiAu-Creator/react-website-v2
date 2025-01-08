@@ -10,8 +10,21 @@ const TriggerOutlook = () => {
 }
 
 export default function Contact() {
+    document.addEventListener('scroll', function () {
+        const element = document.getElementById('contact-section');
+        if (element) {
+            const rect = element.getBoundingClientRect();
+            // Check if the element is in view
+            if (rect.top < (window.innerHeight / 1.5) && rect.bottom >= 0) {
+                element.classList.remove("opacity-0")
+                element.classList.add("fadein")
+                element.classList.add("animation-duration-2000")
+            }
+        }
+    });
+
     return (
-        <div className="contact" id="contact-section">
+        <div className="contact opacity-0 my-10" id="contact-section">
             <p className="contact-title">Get In Touch</p>
             <p>
                 If you think we can create something or you have an opportunity please reach out! I am always looking for new opportunities. Please send me a message via email or LinkedIn. I will get back to you as fast as I can.

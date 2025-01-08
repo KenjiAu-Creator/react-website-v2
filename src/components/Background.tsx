@@ -1,8 +1,21 @@
 import React from 'react';
 
 export default function Background() {
+    document.addEventListener('scroll', function () {
+        const element = document.getElementById('bg-container');
+        if (element) {
+            const rect = element.getBoundingClientRect();
+            // Check if the element is in view
+            if (rect.top < (window.innerHeight / 2) && rect.bottom >= 0) {
+                element.classList.remove("opacity-0")
+                element.classList.add("fadeinleft")
+                element.classList.add("animation-duration-1000")
+            }
+        }
+    });
+
     return (
-        <div id="bg-container" className="w-8">
+        <div id="bg-container" className="w-8 opacity-0">
             <div className="bg w-full my-3 flex flex-wrap" id="background">
                 <div className="section-title w-4 flex justify-content-center">
                     <p>
@@ -12,7 +25,7 @@ export default function Background() {
                 <div className="background-content w-8">
                     <p>
                         While I have degree in mechanical engineering, I found that my passion lies with software development.
-                        I began out as mostly self taught and eventually was accepted into a coding bootcamp which propelled my career!
+                        I began out as mostly self taught and eventually was accepted into a coding bootcamp which propelled my skills and career!
                     </p>
                     <p>
                         I find joy in solving problems that come up from bringing projects from ideation to production.
