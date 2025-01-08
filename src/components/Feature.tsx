@@ -3,7 +3,9 @@ import React from 'react';
 import yummyLanding from "../assets/images/YummyLanding.png"
 import yummyMobile from "../assets/images/YummyMobile.png"
 import shopLanding from "../assets/images/ShopShop.png";
-import shopMobile from "../assets/images/ShopMobile.png"
+import shopMobile from "../assets/images/ShopMobile.png";
+import boardLanding from "../assets/images/BoardLanding.png";
+import boardMobile from "../assets/images/BoardMobile.png";
 
 export default function Feature() {
     return (
@@ -47,15 +49,15 @@ export default function Feature() {
                     </div>
                     <div className="w-full mb-8">
                         <div className="w-full flex">
-                            {/* <img id="shopLanding" className="w-12" src={shopLanding} /> */}
-                            {/* <img id="shopMobile" className="w-4" src={shopMobile} /> */}
+                            <img id="boardLanding" className="w-12" src={boardLanding} />
+                            <img id="boardMobile" className="w-4" src={boardMobile} />
                         </div>
                         <p className="feat-desc">
-                            A mobile application design to help groups find a suitable board game to play based on length and player count. This project was created in collaboration with Steven Yan and was created with the intent to learn mobile development. This application was built using React Native.
+                            A mobile application designed to help groups find a suitable board game to play based on length and player count. This project was created in collaboration with Steven Yan and was created with the intent to learn mobile development. This application was built using React Native on the frontend with a FlaskAPI backend.
                         </p>
                         <div className="proj-buttons">
-                            <a href="https://kenjiau-creator.github.io/TECHCareers-React-Redux-Milestone/" target="_blank" className="button">Demo</a>
-                            <a href="https://github.com/KenjiAu-Creator/TECHCareers-React-Redux-Milestone" target="_blank" className="button">Code</a>
+                            <a href="https://board-game-front-wheat.vercel.app/" target="_blank" className="button">Demo</a>
+                            <a href="https://github.com/KenjiAu-Creator/board-game-mobile" target="_blank" className="button">Code</a>
                         </div>
                     </div>
                 </div>
