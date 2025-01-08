@@ -6,7 +6,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 const TriggerOutlook = () => {
     var body = '';
     var subject = "Message to Kenji Au";
-    window.location.href = "mailto:kenji1@ualberta.ca?body=" + body + "&subject=" + subject;
+    window.location.href = "mailto:kenjiau.dev@gmail.com?body=" + body + "&subject=" + subject;
 }
 
 export default function Contact() {
