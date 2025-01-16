@@ -15,7 +15,7 @@ export default function Contact() {
         if (element) {
             const rect = element.getBoundingClientRect();
             // Check if the element is in view
-            if (rect.top < (window.innerHeight / 1.5) && rect.bottom >= 0) {
+            if (rect.top < (window.innerHeight / 1.4) && rect.bottom >= 0) {
                 element.classList.remove("opacity-0")
                 element.classList.add("fadein")
                 element.classList.add("animation-duration-2000")
