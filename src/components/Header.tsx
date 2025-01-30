@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Header() {
     return (
-        <div id="header">
+        <div id="header" className="hidden sm:block">
             <ul>
                 <li className="header-choice"><a href="#background">About</a></li>
                 <li className="header-choice"><a href="#experience">Experience</a></li>

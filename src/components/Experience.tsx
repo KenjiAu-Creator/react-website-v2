@@ -15,12 +15,14 @@ export default function Experience() {
     });
 
     return (
-        <div className="w-8 opacity-0" id="experience">
-            <div className="w-full flex">
-                <div className="section-title w-4 justify-content-center flex">
-                    EXPERIENCE
+        <div className="w-12 sm:w-8 opacity-0" id="experience">
+            <div className="w-full flex flex-wrap justify-content-center">
+                <div className="section-title w-10 sm:w-4 flex justify-content-start sm:justify-content-center">
+                    <p className="text-4xl sm:text-sm">
+                        EXPERIENCE
+                    </p>
                 </div>
-                <div className="w-8 flex flex-wrap">
+                <div className="w-10 sm:w-8 flex flex-wrap mx-auto">
                     <div className="w-full flex flex-wrap mb-4">
                         <div className="w-8">
                             <div className="flex flex-wrap">

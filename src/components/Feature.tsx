@@ -40,20 +40,22 @@ export default function Feature() {
     });
 
     return (
-        <div className="w-8" id="feature">
-            <div className="w-full flex">
-                <div className="section-title w-4 justify-content-center flex opacity-0" id="collab-title">
-                    COLLABORATIVE PROJECTS
+        <div className="w-12 sm:w-8" id="feature">
+            <div className="w-full flex flex-wrap justify-content-center sm:justify-content-start">
+                <div className="section-title w-10 sm:w-4 sm:justify-content-center opacity-0" id="collab-title">
+                    <p className="text-4xl sm:text-sm flex justify-content-center">
+                        COLLABORATIVE PROJECTS
+                    </p>
                 </div>
-                <div className="w-8 flex flex-wrap">
+                <div className="w-10 sm:w-8 flex flex-wrap">
                     <div className="w-full mb-8 opacity-0" id="yummy-project">
                         <div className="w-full flex">
                             <img
-                                id="yummyLanding" className="w-10" src={yummyLanding} alt="Landing for yummy desktop"
+                                id="yummyLanding" className="w-8 sm:w-10" src={yummyLanding} alt="Landing for yummy desktop"
                             />
                             <img
                                 id="yummyMobile"
-                                className="w-4"
+                                className="w-3 sm:w-4"
                                 src={yummyMobile}
                                 alt="Landing for yummy mobile"
                             />
@@ -67,8 +69,8 @@ export default function Feature() {
                     </div>
                     <div className="w-full mb-8 opacity-0" id="shopkidos-project">
                         <div className="w-full flex">
-                            <img id="shopLanding" className="w-12" src={shopLanding} alt="Landing for shop landing" />
-                            <img id="shopMobile" className="w-4" src={shopMobile} alt="Landing for shop mobile" />
+                            <img id="shopLanding" className="w-8 sm:w-12" src={shopLanding} alt="Landing for shop landing" />
+                            <img id="shopMobile" className="w-3 sm:w-4" src={shopMobile} alt="Landing for shop mobile" />
                         </div>
                         <p className="feat-desc">
                             An E-commerce site built around a non-profit / charity theme. The application features an online store with products obtained through an external third-party API. The application tracks products the user wishes to purchase with through a Redux state managed cart system.
@@ -80,8 +82,8 @@ export default function Feature() {
                     </div>
                     <div className="w-full mb-8 opacity-0" id="board-project">
                         <div className="w-full flex">
-                            <img id="boardLanding" className="w-12" src={boardLanding} alt="Landing for board" />
-                            <img id="boardMobile" className="w-4" src={boardMobile} alt="Landing for board mobile" />
+                            <img id="boardLanding" className="w-8 sm:w-12" src={boardLanding} alt="Landing for board" />
+                            <img id="boardMobile" className="w-3 sm:w-4" src={boardMobile} alt="Landing for board mobile" />
                         </div>
                         <p className="feat-desc">
                             A mobile application designed to help groups find a suitable board game to play based on length and player count. This project was created in collaboration with Steven Yan and was created with the intent to learn mobile development. This application was built using React Native on the frontend with a FlaskAPI backend that utilizes an external third-party API to fetch board games.

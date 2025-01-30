@@ -14,12 +14,12 @@ export default function Landing() {
 
     return (
         <div className="grid w-full justify-content-center h-screen">
-            <div className="landing w-8 h-screen flex flex-column">
+            <div className="landing w-10 sm:w-8 h-screen flex flex-column">
                 <div className="h-screen">
                     <div id="landing-intro" className="fade-in">
                         Hi, my name is
                     </div>
-                    <div id="landing-name" className="text-8xl mt-3 fade-in">
+                    <div id="landing-name" className="text-7xl sm:text-8xl mt-3 fade-in">
                         Kenji Au
                     </div>
                     <div id="landing-building" className="text-6xl fade-in">

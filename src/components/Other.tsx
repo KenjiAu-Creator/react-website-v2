@@ -30,23 +30,29 @@ export default function Other() {
     });
 
     return (
-        <div className="w-8" id="personal-section">
-            <div className="w-full flex">
-                <div className="w-4 flex justify-content-center opacity-0" id="personal-title">
+        <div className="w-full sm:w-8" id="personal-section">
+            <div className="w-full flex flex-wrap justify-content-center sm:justify-content-start">
+                <div className="w-10 sm:w-4 flex justify-content-start sm:justify-content-center opacity-0" id="personal-title">
                     <div className="section-title">
-                        PERSONAL PROJECTS
+                        <p className="text-4xl sm:text-sm">
+                            PERSONAL PROJECTS
+                        </p>
                     </div>
                 </div>
-                <div className="w-8 opacity-0" id="personal-projects">
+                <div className="w-10 sm:w-8 opacity-0" id="personal-projects">
                     <div className="w-full flex flex-wrap">
                         <div className="w-full mb-2">
-                            <div className="">
-                                <b className="mr-2">
-                                    My Calculator
-                                </b>
-                                <span className="tag">React</span>
-                                <span className="tag">Redux</span>
-                                <span className="tag">CSS</span>
+                            <div className="flex flex-wrap align-items-center">
+                                <div className="w-full my-2 sm:w-4 md:w-auto">
+                                    <b className="mr-2 w-full sm:w-4">
+                                        My Calculator
+                                    </b>
+                                </div>
+                                <div className="w-full sm:w-auto">
+                                    <span className="tag">React</span>
+                                    <span className="tag">Redux</span>
+                                    <span className="tag">CSS</span>
+                                </div>
                             </div>
                         </div>
                         <div className="w-full mb-3">
@@ -59,11 +65,15 @@ export default function Other() {
                     </div>
                     <div className="w-full flex flex-wrap my-4">
                         <div className="w-full mb-2">
-                            <div className="">
-                                <b className="mr-2">
-                                    Command Line Chess
-                                </b>
-                                <span className="tag">Ruby</span>
+                            <div className="flex flex-wrap align-items-center">
+                                <div className="w-full my-2 sm:w-6 md:w-auto">
+                                    <b className="mr-2 w-full sm:w-4">
+                                        Command Line Chess
+                                    </b>
+                                </div>
+                                <div className="w-full md:w-auto">
+                                    <span className="tag">Ruby</span>
+                                </div>
                             </div>
                         </div>
                         <div className="w-full mb-3">
@@ -76,13 +86,17 @@ export default function Other() {
 
                     <div className="w-full flex flex-wrap">
                         <div className="w-full mb-2">
-                            <div className="">
-                                <b className="mr-2">
-                                    Private Events
-                                </b>
-                                <span className="tag">Ruby</span>
-                                <span className="tag">Ruby on Rails</span>
-                                <span className="tag">CSS</span>
+                            <div className="w-full flex flex-wrap align-items-center">
+                                <div className="w-full my-2 sm:w-6 md:w-auto">
+                                    <b className="mr-2 w-full sm:w-4">
+                                        Private Events
+                                    </b>
+                                </div>
+                                <div className="w-full md:w-auto">
+                                    <span className="tag">Ruby</span>
+                                    <span className="tag">Ruby on Rails</span>
+                                    <span className="tag">CSS</span>
+                                </div>
                             </div>
                         </div>
                         <div className="w-full mb-3">
@@ -95,12 +109,16 @@ export default function Other() {
 
                     <div className="w-full flex flex-wrap my-4">
                         <div className="w-full mb-2">
-                            <div className="">
-                                <b className="mr-2">
-                                    To Do List
-                                </b>
-                                <span className="tag">PHP</span>
-                                <span className="tag">CSS</span>
+                            <div className="flex flex-wrap align-items-center">
+                                <div className="w-full my-2 sm:w-4 md:w-auto">
+                                    <b className="mr-2 w-full sm:w-4">
+                                        To Do List
+                                    </b>
+                                </div>
+                                <div className="w-full md:w-auto">
+                                    <span className="tag">PHP</span>
+                                    <span className="tag">CSS</span>
+                                </div>
                             </div>
                         </div>
                         <div className="w-full mb-3">

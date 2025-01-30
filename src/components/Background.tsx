@@ -15,14 +15,14 @@ export default function Background() {
     });
 
     return (
-        <div id="bg-container" className="w-8 opacity-0">
-            <div className="bg w-full my-3 flex flex-wrap" id="background">
-                <div className="section-title w-4 flex justify-content-center">
-                    <p>
+        <div id="bg-container" className="w-full sm:w-8 opacity-0">
+            <div className="w-full my-3 flex flex-wrap justify-content-center sm:justify-content-start" id="background">
+                <div className="section-title w-10 sm:w-4 flex justify-content-start sm:justify-content-center">
+                    <p className="text-4xl sm:text-sm">
                         BACKGROUND
                     </p>
                 </div>
-                <div className="background-content w-8">
+                <div className="w-10 sm:w-8">
                     <p>
                         While I have degree in mechanical engineering, I found that my passion lies with software development.
                         I began out as mostly self taught and eventually was accepted into a coding bootcamp which propelled my skills and career!

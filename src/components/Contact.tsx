@@ -24,7 +24,7 @@ export default function Contact() {
     });
 
     return (
-        <div className="contact opacity-0 my-10" id="contact-section">
+        <div className="contact opacity-0 my-10 w-10 sm:w-8" id="contact-section">
             <p className="contact-title">Get In Touch</p>
             <p>
                 If you think we can create something or you have an opportunity please reach out! I am always looking for new opportunities. Please send me a message via email or LinkedIn. I will get back to you as fast as I can.
