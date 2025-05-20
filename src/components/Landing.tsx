@@ -26,7 +26,7 @@ export default function Landing() {
                         I build things on the web.
                     </div>
                     <div id="landing-description" className="text-3xl mt-3 fade-in">
-                        I'm a full stack software developer experienced in building web applications. Currently I am looking for new opportunities!
+                        I'm a full stack software developer experienced in building web applications.
                     </div>
                 </div>
                 <div className="flex justify-content-center">
